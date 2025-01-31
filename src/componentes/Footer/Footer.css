@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 30px;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  align-items: center;
+}
+
+.footer .footer-anuncio {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-anuncio .text {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-anuncio .title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer-anuncio .subtitle {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.footer .footer__button {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none;
+  padding: 12px 30px;
+  border: 0px;
+}
